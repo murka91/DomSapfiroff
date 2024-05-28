@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Контакты - Питомник кошек</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">Dom Sapfiroff</a>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="../main/index.html">Главная</a></li>
+                <li><a href="../aboutus/about.html">О нас</a></li>
+                <li><a href="../Ourpets/index.html">Наши питомцы</a></li>
+                <li><a href="../contacts/index.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+        <section class="contacts">
+            <h1 style="text-align: center; margin-bottom: 50px;">Контакты</h1>
+            <div class="contact-info">
+                <div class="address">
+                    <h2>Адрес и режим работы</h2>
+                    <p>Адрес: Омская область, г.Омск</p>
+                    <p>Режим работы: с 10:00 до 18:00, ежедневно</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d146513.05509248713!2d73.191335239945!3d54.98596156928498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43aafde2f601090b%3A0x26bf47cdb7028eb6!2z0LMuINCe0LzRgdC6LCDQntC80YHQuiwg0J7QvNGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1716882746690!5m2!1sru!2sru" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="feedback">
+                    <h2>Форма обратной связи</h2>
+                   <form action="submit_form.php" method="post">
+                        <label for="name">Имя:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Сообщение:</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+            <div class="delivery-info">
+                <h2>Доставка</h2>
+                <p>Мы осуществляем доставку кошек по всей России. Стоимость доставки рассчитывается индивидуально в зависимости от региона.</p>
+                <p>Для получения более подробной информации о доставке, пожалуйста, свяжитесь с нами по телефону или через форму обратной связи.</p>
+            </div>
+            <div class="social-media">
+                <h2>Мы в социальных сетях</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/Sofya.Karpuhina" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="https://www.instagram.com/mainecoon_dom_sapfiroff/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://vk.com/dom_sapfiroff" target="_blank"><i class="fab fa-vk"></i> VKontakte</a></li>
+                </ul>
+            </div>
+            
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Питомник кошек. Все права защищены.</p>
+    </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
